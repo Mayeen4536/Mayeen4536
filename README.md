@@ -21,6 +21,8 @@
 - Currently working on some of my side projects using Flutter and Django.
 - I love to learn and contribute in any and every possible way.
 
+![Mayeen's github stats](https://github-readme-stats.vercel.app/api?username=Mayeen4536&show_icons=true&theme=dark)
+
 I am very much Passionate about Programming, Research, and Sports.
 Always motivated and love to take new challenges.
 My greatest strength is to find fast and effective solutions to problems.
