@@ -18,7 +18,7 @@
 ### I am Mayeen Abedin Sajid
 
 - A Computer Science Engineering Undergraduate Student at Brac University 
-- Currently working on some of my side projects using Flutter and Django.
+- Currently working on some of my personal pet projects using Flutter and Django.
 - I love to learn and contribute in any and every possible way.
 
 ![Mayeen's github stats](https://github-readme-stats.vercel.app/api?username=Mayeen4536&show_icons=true&theme=dark)
