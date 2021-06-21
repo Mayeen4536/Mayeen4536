@@ -21,7 +21,7 @@
 ### I am Mayeen Abedin Sajid
 
 - A Computer Science Engineering Undergraduate Student at Brac University 
-- Currently working on some of my personal pet projects using <img align="left" alt="Mayeen's's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/flutter.svg" /> Flutter and <img  alt="Mayeen's's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/django.svg" /> Django.
+- Currently working on some of my personal pet projects using <img alt="flutter" width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/flutter.svg" /> Flutter and <img alt="django" width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/django.svg" /> Django.
 - I love to learn and contribute in any and every possible way.
 
 ![Mayeen's github stats](https://github-readme-stats.vercel.app/api?username=Mayeen4536&show_icons=true&theme=dark)
