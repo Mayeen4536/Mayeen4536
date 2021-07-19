@@ -24,7 +24,7 @@
 - Currently working on some of my personal pet projects using  <img alt="flutter" width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/flutter.svg" /> Flutter and  <img alt="django" width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/django.svg" /> Django.
 - I love to learn and contribute in any and every possible way.
 
-![Mayeen's github stats](https://github-readme-stats.vercel.app/api?username=Mayeen4536&show_icons=true&theme=dark)
+![Mayeen's github stats](https://github-readme-stats.vercel.app/api?username=Mayeen4536&show_icons=false&theme=dark)
 
 I am very much Passionate about Programming, Research, and Sports.
 Always motivated and love to take new challenges.
