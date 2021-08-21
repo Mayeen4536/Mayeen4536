@@ -17,8 +17,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Mayeen4536" alt="Mayeen4536" /> </p>
 
-# <a href="https://mayeen4536.github.io/"> My portfolio website </a>
-### I am Mayeen Abedin Sajid
+## I am Mayeen Abedin Sajid
+
+##### Check out <a href="https://mayeen4536.github.io/"> my portfolio website </a>
 
 - A Computer Science Engineering Undergraduate Student at Brac University 
 - Currently working on some of my personal pet projects using  <img alt="flutter" width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/flutter.svg" /> Flutter and  <img alt="django" width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/django.svg" /> Django.
