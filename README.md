@@ -6,13 +6,10 @@
   <img align="left" alt="Mayeen's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 </a>
 <a href="https://github.com/Mayeen4536/">
-  <img align="left" alt="Mayeen's's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+  <img align="left" alt="Mayeen's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
 </a>
 <a href="https://www.facebook.com/mayeen.sajid/">
-  <img align="left" alt="Mayeen's's Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
-</a>
-<a href="https://mayeen4536.github.io/">
-  <img align="left" alt="Mayeen's's Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/web.svg" />
+  <img align="left" alt="Mayeen's Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
 </a>
 
 <br />
@@ -20,7 +17,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Mayeen4536" alt="Mayeen4536" /> </p>
 
-
+# <a href="https://mayeen4536.github.io/"> My portfolio website </a>
 ### I am Mayeen Abedin Sajid
 
 - A Computer Science Engineering Undergraduate Student at Brac University 
