@@ -54,7 +54,7 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Mayeen4536&show_icons=true&theme=radical" />
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mayeen4536&theme=radical" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mayeen4536&layout=compact&theme=radical" />
 </p>
 
 ---
