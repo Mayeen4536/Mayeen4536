@@ -1,10 +1,10 @@
-<h1 align="center">Hey there! 👋 I'm Mayeen Abedin Sajid</h1>
+<h1 align="center">Hey there! 👋<img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h2> I'm Mayeen Abedin Sajid</h1>
 
 <p align="center">
   <strong>QA Engineer | Automation Enthusiast | Ex-Python Developer | AI in Testing Explorer</strong><br>
   Passionate about blending quality assurance with automation, and building solutions that scale.
 </p>
-<img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h2>
+
 
 ---
 
