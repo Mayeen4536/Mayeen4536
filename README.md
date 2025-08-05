@@ -1,4 +1,4 @@
-<h1 align="center">Hey there!<img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h2> I'm Mayeen Abedin Sajid</h1>
+<h1 align="center">Hey there!<img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> I'm Mayeen Abedin Sajid</h1>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=Mayeen4536" alt="Mayeen4536" /> </p>
 <p align="center">
   <strong>QA Engineer | Automation Enthusiast | Python Developer | AI in Testing Explorer</strong><br>
