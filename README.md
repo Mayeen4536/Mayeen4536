@@ -1,36 +1,80 @@
-
-
-## Hello World! <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></h2>
+<h1 align="center">Hey there! <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> I'm Mayeen Abedin Sajid</h1>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=Mayeen4536" alt="Mayeen4536" /> </p>
+<p align="center">
+  <strong>QA Engineer | Automation Enthusiast | Python Developer | AI in Testing Explorer</strong><br>
+  Passionate about blending quality assurance with automation, and building solutions that scale.
+</p>
 
 <img width="35%" align="right" alt="Github" src="https://user-images.githubusercontent.com/48678280/88862734-4903af80-d201-11ea-968b-9c939d88a37c.gif" />
+---
 
-<a href="https://www.linkedin.com/in/mayeen-abedin-sajid-50b4a0194/">
-  <img align="left" alt="Mayeen's Linkdein" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-</a>
-<a href="https://github.com/Mayeen4536/">
-  <img align="left" alt="Mayeen's Github" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
-</a>
-<a href="https://www.facebook.com/mayeen.sajid/">
-  <img align="left" alt="Mayeen's Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />
-</a>
+### 👨‍💻 What I'm Working On
 
-<br />
-<br/>
+- 🔬 Exploring how **AI/LLMs** (like GitHub Copilot, Cursor) can assist in **automated test case generation**
+- 🧪 Building an API automation portfolio using **Postman**, **JavaScript**, and public APIs
+- 🛠️ Enhancing my QA skills through hands-on practice with **Playwright (C#)** and **API testing workflows**
+- 🧱 Maintaining past full-stack projects using **Flutter**, **Django**, and **Python**
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Mayeen4536" alt="Mayeen4536" /> </p>
+---
 
-## I am Mayeen Abedin Sajid
+### 🧰 Tech Stack & Tools
 
-##### Check out <a href="https://mayeen4536.github.io/"> my portfolio website </a>
+**QA / Automation**
+- Postman, Playwright (C#), XUnit, Selenium
+- GitHub Actions, CI/CD basics
+- REST APIs, API mocking, Test strategy
 
-- A Computer Science Engineering Undergraduate Student at Brac University 
-- Currently working on some of my personal pet projects using  <img alt="flutter" width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/flutter.svg" /> Flutter and  <img alt="django" width="18px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/django.svg" /> Django.
-- I love to learn and contribute in any and every possible way.
+**Development**
+- Python, Django, Flutter, Firebase
+- PostgreSQL, HTML/CSS, JavaScript
 
-![Mayeen's github stats](https://github-readme-stats.vercel.app/api?username=Mayeen4536&show_icons=true&theme=dark)
+**Tooling**
+- GitHub, Git, VSCode, Cursor, GitHub Copilot
 
-I am very much Passionate about Programming, Research, and Sports.
-Always motivated and love to take new challenges.
-My greatest strength is to find fast and effective solutions to problems.
-Being fond of playing and watching sports as an individual who is also pursuing engineering is a quirky factor about me,
-which eventually helped me to keep a good balance in lifestyle and made me more communicative.
+---
+
+### 📦 Featured Projects
+
+- [🧪 API Test Automation Suite (Postman)](https://github.com/Mayeen4536/API-Test-Automation-Postman)  
+  Automated CRUD testing using Postman with validation scripts, environment variables, and CI-ready structure.
+
+- [🌐 Customer Management Platform – Django]([#](https://github.com/Mayeen4536/CustomerManagementSystem_CSE470))  
+  Full-stack app for managing customers, appointments, and service history with authentication.
+
+- [📱 Grocery Shop App – Flutter]([#](https://github.com/Mayeen4536/tarjida-app))  
+  Cross-platform mobile app with cart, checkout, and real-time product management.
+
+- [🧠 AI in Testing (Coming Soon)](#)  
+  Exploring how LLMs like GPT & Copilot can enhance test design and QA workflows.
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mayeen4536&show_icons=true&theme=radical" />
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mayeen4536&theme=radical" />
+</p>
+
+---
+
+### 📫 Let's Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/mayeen-abedin-sajid/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" /></a>
+  <a href="https://github.com/Mayeen4536"><img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github" /></a>
+</p>
+
+---
+
+### 🧑‍💻 About Me
+
+I started my journey as a developer, working on full-stack apps using **Flutter**, **Django**, and **Python**. Over time, I discovered a deep interest in **QA engineering**, and now I focus on building reliable, automated testing systems. I’m currently exploring how **AI can enhance QA** — from test case generation to intelligent automation — while continuing to learn and share through my projects.
+
+---
+
+📌 *“Crafting smarter tests, powered by curiosity and intelligent tools.”*
+
+
+
