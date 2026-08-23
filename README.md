@@ -10,7 +10,7 @@
 
 ### 👨‍💻 What I'm Working On
 
-- 🔬 Exploring how **AI/LLMs** (like GitHub Copilot, Cursor) can assist in **automated test case generation**
+- 🔬 Exploring how **AI/LLMs** (like Claude Code, GitHub Copilot, Cursor) can assist in **automated test case generation**
 - 🧪 Building an API automation portfolio using **Postman**, **JavaScript**, and public APIs
 - 🛠️ Enhancing my QA skills through hands-on practice with **Playwright (C#)** and **API testing workflows**
 - 🧱 Maintaining past full-stack projects using **Flutter**, **Django**, and **Python**
