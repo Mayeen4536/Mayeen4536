@@ -1,0 +1,209 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img"
+     aria-label="Mayeen Abedin Sajid: Senior Software QA Engineer, QA POC, Test Automation and API Quality. Animated QA dashboard: a bug is detected, UI, API and Regression tests run and pass, build verified.">
+  <title>Mayeen Abedin Sajid: Senior Software QA Engineer</title>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF2F7"/>
+    </linearGradient>
+    <radialGradient id="glowViolet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0891B2" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes cursorBlink { 0%,50% { opacity:1; } 50.01%,100% { opacity:0; } }
+    .cursor { animation: cursorBlink 1s steps(1) infinite; }
+
+    @keyframes radarSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    .radar-sweep { animation: radarSpin 3s linear infinite; transform-origin: 796px 44px; }
+
+    @keyframes bugMove { 0% { transform: translate(230px,-72px); } 20% { transform: translate(0,0); } 100% { transform: translate(0,0); } }
+    @keyframes bugColor { 0%,20% { color:#D97706; } 23% { color:#DC2626; } 26% { color:#D97706; } 29% { color:#DC2626; } 32%,100% { color:#D97706; } }
+    @keyframes bugFade { 0%,28% { opacity:1; } 38%,100% { opacity:0; } }
+    .bug { animation: bugMove 7s ease-out infinite, bugColor 7s linear infinite, bugFade 7s ease-in-out infinite; }
+
+    @keyframes bugRing { 0%,21% { r:6; opacity:0; } 24% { r:7; opacity:0.9; } 34%,100% { r:24; opacity:0; } }
+    .bug-ring { animation: bugRing 7s ease-out infinite; }
+
+    @keyframes bar1Fill { 0%,34% { transform: scaleX(0); } 46%,100% { transform: scaleX(1); } }
+    @keyframes bar2Fill { 0%,46% { transform: scaleX(0); } 57%,100% { transform: scaleX(1); } }
+    @keyframes bar3Fill { 0%,57% { transform: scaleX(0); } 69%,100% { transform: scaleX(1); } }
+    .bar1 { transform-origin: 610px 0; animation: bar1Fill 7s ease-in-out infinite; }
+    .bar2 { transform-origin: 610px 0; animation: bar2Fill 7s ease-in-out infinite; }
+    .bar3 { transform-origin: 610px 0; animation: bar3Fill 7s ease-in-out infinite; }
+
+    @keyframes spin1Show { 0%,34% { opacity:0; } 37% { opacity:1; } 41% { opacity:0.4; } 44% { opacity:1; } 46%,100% { opacity:0; } }
+    @keyframes spin2Show { 0%,46% { opacity:0; } 49% { opacity:1; } 52% { opacity:0.4; } 55% { opacity:1; } 57%,100% { opacity:0; } }
+    @keyframes spin3Show { 0%,57% { opacity:0; } 60% { opacity:1; } 63% { opacity:0.4; } 66% { opacity:1; } 69%,100% { opacity:0; } }
+    .spinner1 { animation: spin1Show 7s linear infinite; }
+    .spinner2 { animation: spin2Show 7s linear infinite; }
+    .spinner3 { animation: spin3Show 7s linear infinite; }
+
+    @keyframes check1Show { 0%,46% { opacity:0; } 47%,100% { opacity:1; } }
+    @keyframes check2Show { 0%,57% { opacity:0; } 58%,100% { opacity:1; } }
+    @keyframes check3Show { 0%,69% { opacity:0; } 70%,100% { opacity:1; } }
+    .check1 { animation: check1Show 7s ease-out infinite; }
+    .check2 { animation: check2Show 7s ease-out infinite; }
+    .check3 { animation: check3Show 7s ease-out infinite; }
+
+    @keyframes verifiedShow { 0%,69% { opacity:0; transform: scale(0.85); } 77%,100% { opacity:1; transform: scale(1); } }
+    .verified-badge { animation: verifiedShow 7s ease-out infinite; transform-origin: 740px 345px; }
+
+    @keyframes verifiedGlowPulse { 0%,77% { opacity:0; } 82% { opacity:0.30; } 88% { opacity:0.12; } 94% { opacity:0.28; } 100% { opacity:0.15; } }
+    .verified-glow { animation: verifiedGlowPulse 7s ease-in-out infinite; }
+
+    @keyframes liveDotPulse { 0%,100% { opacity:0.35; } 50% { opacity:1; } }
+    .live-dot { animation: liveDotPulse 1.6s ease-in-out infinite; }
+
+    @keyframes sentinelHeadTilt { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+    .sentinel-head { animation: sentinelHeadTilt 4s ease-in-out infinite; transform-origin: 1035px 247px; }
+
+    @keyframes sentinelHandBob { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(2px); } }
+    .sentinel-hands { animation: sentinelHandBob 0.7s ease-in-out infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .cursor, .radar-sweep, .bug, .bug-ring, .bar1, .bar2, .bar3,
+      .spinner1, .spinner2, .spinner3, .verified-glow,
+      .sentinel-head, .sentinel-hands, .live-dot { animation: none !important; }
+      .cursor { opacity: 1 !important; }
+      .bug, .bug-ring { opacity: 0 !important; }
+      .bar1, .bar2, .bar3 { transform: scaleX(1) !important; }
+      .spinner1, .spinner2, .spinner3 { opacity: 0 !important; }
+      .check1, .check2, .check3 { opacity: 1 !important; }
+      .verified-badge { animation: none !important; opacity: 1 !important; transform: scale(1) !important; }
+      .verified-glow { opacity: 0.18 !important; }
+      .live-dot { opacity: 1 !important; }
+    }
+  </style>
+
+  <rect x="0" y="0" width="1200" height="360" rx="24" fill="url(#bgGrad)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#E2E8F0" stroke-width="1.5"/>
+  <circle cx="1120" cy="60" r="180" fill="url(#glowViolet)"/>
+  <circle cx="120" cy="320" r="160" fill="url(#glowCyan)"/>
+
+  <!-- Left: identity -->
+  <text x="55" y="90" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="22" fill="#0E7490">$ whoami --role=senior-qa-engineer</text>
+  <rect class="cursor" x="522" y="73" width="10" height="24" fill="#0E7490"/>
+
+  <text x="53" y="158" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="50" font-weight="700" fill="#0F172A">Mayeen Abedin Sajid</text>
+
+  <text x="55" y="201" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#334155">Senior Software QA Engineer</text>
+
+  <text x="55" y="237" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#64748B">Test Automation &#8226; API Quality &#8226; Release Confidence</text>
+
+  <!-- Right: app window mock -->
+  <rect x="590" y="34" width="190" height="104" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="590" y="34" width="190" height="24" rx="12" fill="#F1F5F9"/>
+  <circle cx="602" cy="46" r="3.5" fill="#F87171"/>
+  <circle cx="615" cy="46" r="3.5" fill="#FBBF24"/>
+  <circle cx="628" cy="46" r="3.5" fill="#34D399"/>
+  <rect x="604" y="70" width="150" height="7" rx="3.5" fill="#E2E8F0"/>
+  <rect x="604" y="86" width="120" height="7" rx="3.5" fill="#E2E8F0"/>
+  <rect x="604" y="102" width="135" height="7" rx="3.5" fill="#E2E8F0"/>
+
+  <!-- radar / scan dish -->
+  <circle cx="796" cy="44" r="15" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+  <path class="radar-sweep" d="M796,44 L796,29 A15,15 0 0,1 809,52 Z" fill="#7C3AED" fill-opacity="0.30"/>
+  <circle cx="796" cy="44" r="2.5" fill="#7C3AED"/>
+
+  <!-- bug: detection ring (own coordinate space, not translated) -->
+  <circle class="bug-ring" cx="655" cy="95" r="6" fill="none" stroke="#DC2626" stroke-width="2"/>
+
+  <!-- bug: body group (translated in) -->
+  <g class="bug" style="color:#D97706;">
+    <line x1="647" y1="88" x2="641" y2="82" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="651" y1="87" x2="648" y2="80" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <ellipse cx="655" cy="96" rx="10" ry="6.5" fill="currentColor"/>
+    <circle cx="647" cy="90" r="4" fill="currentColor"/>
+    <line x1="648" y1="92" x2="638" y2="97" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="650" y1="97" x2="639" y2="103" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="662" y1="92" x2="672" y2="97" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="660" y1="98" x2="671" y2="104" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- dashboard card -->
+  <rect x="590" y="150" width="300" height="172" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="610" y="177" font-family="SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="2" fill="#64748B">TEST RUN</text>
+  <circle class="live-dot" cx="864" cy="172" r="4" fill="#059669"/>
+  <line x1="610" y1="187" x2="870" y2="187" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- row 1 -->
+  <text x="610" y="214" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" fill="#334155">UI Test</text>
+  <rect x="610" y="222" width="190" height="6" rx="3" fill="#E2E8F0"/>
+  <rect class="bar1" x="610" y="222" width="190" height="6" rx="3" fill="#0891B2"/>
+  <g class="spinner1">
+    <circle cx="822" cy="211" r="2.5" fill="#94A3B8"/>
+    <circle cx="831" cy="211" r="2.5" fill="#94A3B8"/>
+    <circle cx="840" cy="211" r="2.5" fill="#94A3B8"/>
+  </g>
+  <g class="check1">
+    <circle cx="831" cy="211" r="10" fill="#059669" fill-opacity="0.14"/>
+    <path d="M825,211 L829,215 L838,206" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- row 2 -->
+  <text x="610" y="250" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" fill="#334155">API Test</text>
+  <rect x="610" y="258" width="190" height="6" rx="3" fill="#E2E8F0"/>
+  <rect class="bar2" x="610" y="258" width="190" height="6" rx="3" fill="#0891B2"/>
+  <g class="spinner2">
+    <circle cx="822" cy="247" r="2.5" fill="#94A3B8"/>
+    <circle cx="831" cy="247" r="2.5" fill="#94A3B8"/>
+    <circle cx="840" cy="247" r="2.5" fill="#94A3B8"/>
+  </g>
+  <g class="check2">
+    <circle cx="831" cy="247" r="10" fill="#059669" fill-opacity="0.14"/>
+    <path d="M825,247 L829,251 L838,242" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- row 3 -->
+  <text x="610" y="286" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="15" fill="#334155">Regression</text>
+  <rect x="610" y="294" width="190" height="6" rx="3" fill="#E2E8F0"/>
+  <rect class="bar3" x="610" y="294" width="190" height="6" rx="3" fill="#0891B2"/>
+  <g class="spinner3">
+    <circle cx="822" cy="283" r="2.5" fill="#94A3B8"/>
+    <circle cx="831" cy="283" r="2.5" fill="#94A3B8"/>
+    <circle cx="840" cy="283" r="2.5" fill="#94A3B8"/>
+  </g>
+  <g class="check3">
+    <circle cx="831" cy="283" r="10" fill="#059669" fill-opacity="0.14"/>
+    <path d="M825,283 L829,287 L838,278" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- build verified -->
+  <ellipse class="verified-glow" cx="740" cy="345" rx="95" ry="20" fill="#059669" filter="url(#softBlur)"/>
+  <g class="verified-badge">
+    <rect x="655" y="330" width="170" height="30" rx="15" fill="#059669" fill-opacity="0.12" stroke="#059669" stroke-width="1.5"/>
+    <text x="740" y="350" font-family="SFMono-Regular, Consolas, monospace" font-size="15" font-weight="700" letter-spacing="1" fill="#059669" text-anchor="middle">BUILD: VERIFIED</text>
+  </g>
+
+  <!-- QA sentinel figure -->
+  <rect x="985" y="305" width="100" height="10" rx="3" fill="#CBD5E1"/>
+  <g transform="rotate(-3 1035 289)">
+    <rect x="995" y="270" width="80" height="38" rx="4" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <rect x="1003" y="277" width="64" height="24" rx="2" fill="#0891B2" fill-opacity="0.16"/>
+  </g>
+  <g class="sentinel-hands">
+    <path d="M1018,260 L1000,303" fill="none" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1052,260 L1070,303" fill="none" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="1000" cy="303" r="5" fill="#CBD5E1"/>
+    <circle cx="1070" cy="303" r="5" fill="#CBD5E1"/>
+  </g>
+  <rect x="1015" y="247" width="40" height="45" rx="10" fill="#CBD5E1"/>
+  <g class="sentinel-head">
+    <circle cx="1035" cy="225" r="22" fill="#CBD5E1"/>
+    <rect x="1023" y="224" width="6" height="6" rx="3" fill="#CBD5E1"/>
+    <rect x="1041" y="224" width="6" height="6" rx="3" fill="#CBD5E1"/>
+    <rect x="1018" y="220" width="34" height="10" rx="5" fill="#0E7490"/>
+    <rect x="1018" y="220" width="34" height="10" rx="5" fill="#0891B2" filter="url(#softBlur)" fill-opacity="0.55"/>
+  </g>
+</svg>
