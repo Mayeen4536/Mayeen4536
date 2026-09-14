@@ -1,0 +1,32 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mayeen Abedin Sajid, Senior Software QA Engineer, QA POC, Test Automation and API Quality">
+  <title>Mayeen Abedin Sajid: Senior Software QA Engineer</title>
+  <rect x="0" y="0" width="1200" height="300" rx="24" fill="#F8FAFC"/>
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="none" stroke="#E2E8F0" stroke-width="1.5"/>
+
+  <text x="60" y="88" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="22" fill="#047857">$ whoami --role=senior-qa-engineer</text>
+
+  <text x="58" y="153" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#0F172A">Mayeen Abedin Sajid</text>
+
+  <text x="60" y="196" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="25" font-weight="600" fill="#334155">Senior Software QA Engineer</text>
+
+  <text x="60" y="230" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#64748B">QA POC &#183; Test Automation &amp; API Quality</text>
+
+  <!-- decorative checklist card -->
+  <rect x="900" y="72" width="230" height="168" rx="18" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="984" y="58" width="62" height="22" rx="7" fill="#047857"/>
+
+  <!-- row 1: done -->
+  <rect x="924" y="108" width="26" height="26" rx="6" fill="none" stroke="#047857" stroke-width="2.5"/>
+  <path d="M930 121 L937 128 L950 113" fill="none" stroke="#047857" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="962" y="115" width="140" height="12" rx="6" fill="#CBD5E1"/>
+
+  <!-- row 2: done -->
+  <rect x="924" y="152" width="26" height="26" rx="6" fill="none" stroke="#047857" stroke-width="2.5"/>
+  <path d="M930 165 L937 172 L950 157" fill="none" stroke="#047857" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="962" y="159" width="110" height="12" rx="6" fill="#CBD5E1"/>
+
+  <!-- row 3: in progress -->
+  <rect x="924" y="196" width="26" height="26" rx="6" fill="none" stroke="#94A3B8" stroke-width="2.5"/>
+  <circle cx="937" cy="209" r="6" fill="#D97706"/>
+  <rect x="962" y="203" width="90" height="12" rx="6" fill="#CBD5E1"/>
+</svg>
