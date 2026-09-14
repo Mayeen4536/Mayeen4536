@@ -3,21 +3,14 @@
   <img src="assets/banner-light.svg" alt="Mayeen Abedin Sajid: Senior Software QA Engineer, QA POC, Test Automation & API Quality" width="100%">
 </picture>
 
-<h1 align="center">Mayeen Abedin Sajid</h1>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=monospace&size=20&duration=3000&pause=1200&repeat=false&center=true&vCenter=true&width=700&height=40&color=34D399&lines=Senior+Software+QA+Engineer+%7C+QA+POC+%7C+Test+Automation+%26+API+Quality">
-    <img src="https://readme-typing-svg.demolab.com/?font=monospace&size=20&duration=3000&pause=1200&repeat=false&center=true&vCenter=true&width=700&height=40&color=047857&lines=Senior+Software+QA+Engineer+%7C+QA+POC+%7C+Test+Automation+%26+API+Quality" alt="Senior Software QA Engineer | QA POC | Test Automation & API Quality">
-  </picture>
-</p>
+<h1 align="center">Senior Software QA Engineer | QA POC | Test Automation & API Quality</h1>
 
 <p align="center">
   <em>I hunt race conditions, interrogate APIs, and turn "works on my machine" into reproducible evidence.</em>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mayeen-abedin-sajid/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/mayeen-abedin-sajid-50b4a0194/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://mayeensajid.netlify.app"><img src="https://img.shields.io/badge/Portfolio-View-1E293B?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
   <img src="https://img.shields.io/badge/Open%20to-Senior%20QA%20%2F%20SDET%20Roles-047857?style=flat-square" alt="Open to opportunities">
 </p>
@@ -135,6 +128,6 @@ Every project above was tested, manually and automatically, before I called it "
 Open to **Senior QA Engineer**, **QA Automation Engineer**, and **SDET** roles.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mayeen-abedin-sajid/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/mayeen-abedin-sajid-50b4a0194/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://mayeensajid.netlify.app"><img src="https://img.shields.io/badge/Portfolio-View-1E293B?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
 </p>
