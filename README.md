@@ -1,133 +1,151 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Mayeen Abedin Sajid: Senior Software QA Engineer, QA POC, Test Automation & API Quality" width="100%">
+  <img src="assets/banner-light.svg" alt="Mayeen's Curiosity Den. Curiosity lives here. Come for the code. Stay for the questions." width="100%">
 </picture>
 
-<h1 align="center">Senior Software QA Engineer | QA POC | Test Automation & API Quality</h1>
+<h1 align="center">Hey, I'm Mayeen. Welcome to my den.</h1>
 
 <p align="center">
-  <em>I hunt race conditions, interrogate APIs, and turn "works on my machine" into reproducible evidence.</em>
+  <strong>Senior Software QA Engineer · Builder · Bug detective</strong><br>
+  Turning “works on my machine” into “here's the evidence.”
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mayeen-abedin-sajid-50b4a0194/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://mayeensajid.netlify.app"><img src="https://img.shields.io/badge/Portfolio-View-1E293B?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
-  <img src="https://img.shields.io/badge/Open%20to-Senior%20QA%20%2F%20SDET%20Roles-047857?style=flat-square" alt="Open to opportunities">
+  <a href="https://mayeensajid.netlify.app">↗ Portfolio</a> &nbsp; · &nbsp;
+  <a href="https://www.linkedin.com/in/mayeen-abedin-sajid-50b4a0194/">↗ Say hello</a> &nbsp; · &nbsp;
+  <a href="#inside-the-den">↓ Wander around</a>
 </p>
 
-<p align="center">
-  <sub><a href="#featured-projects">Featured Projects</a> · <a href="#technical-toolkit">Toolkit</a> · <a href="#current-focus">Current Focus</a> · <a href="#lets-talk-quality">Contact</a></sub>
-</p>
-
-## Professional Snapshot
-
-- **Role:** Senior Software QA Engineer (Level 1) at Enosis Solutions
-- **Experience:** Nearly 4 years in software quality assurance
-- **Standout scope:** QA POC for a complex enterprise platform migration initiative, owning test strategy, staging acceptance, and release sign-off across the effort
-- **Domains:** Migration, platform, revenue-cycle, and production-support teams
-- **Based in:** Dhaka, Bangladesh
-
-## Quality Engineering in Practice
-
-What the responsibilities above actually look like day to day:
-
-| Area | In practice |
-|---|---|
-| Test strategy & planning | Designing test coverage for new and migrated functionality before code freezes, not after |
-| Release validation | Staging acceptance and regression planning ahead of production releases |
-| Defect investigation | Tracing failures back to root cause instead of stopping at "can't reproduce" |
-| Production support | Validating production issues and coordinating HyperCare after major releases |
-| Cross-team communication | Acting as the QA point of contact between engineering and product on a platform migration |
-
-## Featured Projects
-
-### [Bug Museum](https://github.com/Mayeen4536/bug-museum)
-
-**Problem:** Most engineering lessons from real production failures evaporate the moment the incident channel goes quiet.
-
-**What I built:** An open-source, evidence-sourced catalog of recurring software failure patterns, written as deep-dive "exhibits" instead of shallow bug lists: each one covers root cause, user impact, developer investigation, QA detection strategy, and an automation strategy.
-
-**The proof:** The flagship exhibit documents a **refresh-token rotation race condition**: how concurrent or retry-triggered refresh attempts race against a single-use rotating token, why the failure looks like random flakiness without correlated logging, and how to deliberately reproduce it under concurrency rather than sequential happy-path testing. It's backed by citations to IETF RFC 9700 and Auth0's rotation documentation, not speculation. The repository also publishes its own architecture decisions and roadmap, with API and Frontend exhibit categories planned next.
-
-**Stack:** Structured Markdown documentation, metadata-tagged exhibits (difficulty, production impact), CC BY 4.0 licensed.
-
-**Repo:** [github.com/Mayeen4536/bug-museum](https://github.com/Mayeen4536/bug-museum)
-
-### [Playwright SauceDemo Automation](https://github.com/Mayeen4536/playwright-saucedemo-automation)
-
-![CI](https://img.shields.io/github/actions/workflow/status/Mayeen4536/playwright-saucedemo-automation/playwright-tests.yml?branch=main&label=CI&style=flat-square)
-
-**Problem:** Show how a professional QA/SDET actually structures a UI automation framework, not just that a script can be made to pass.
-
-**What I built:** A Playwright + TypeScript suite built in small, reviewable increments around the Page Object Model, covering login (valid, invalid, locked-out, empty-field), cart, checkout, product sorting, and logout, plus a fully independent API-contract suite against a public booking API using Playwright's own `request` fixture.
-
-**The proof:** Auth-state reuse via `storageState` across separate setup/authenticated/unauthenticated projects, typed data-driven negative-login tests, a custom `loginPage` fixture, and a diagnostics-first failure policy: screenshot, video, and trace retained only on failure, with an additional GitHub Actions `github` reporter in CI. The CI pipeline above reflects the real, current build status of this repository.
-
-**Stack:** Playwright, TypeScript, GitHub Actions, Docker (optional local runner).
-
-**Repo:** [github.com/Mayeen4536/playwright-saucedemo-automation](https://github.com/Mayeen4536/playwright-saucedemo-automation)
-
-### [GroceryMate](https://github.com/Mayeen4536/GroceryMate)
-
-**Problem:** A real household-expense-splitting app needed its UI validated end-to-end before its settlement engine could be trusted: the "is this actually production-ready" question a QA engineer gets handed on a live feature.
-
-**What I validated:** A structured exploratory UI/UX audit, 88 scripted interaction steps across desktop and mobile viewports, covering navigation, forms, dialogs, drawers, empty states, keyboard interaction, rapid-click, invalid input, destructive actions, and browser back navigation.
-
-**The proof:** 9 defects found (3 High, 4 Medium, 2 Low); all 3 High and all 4 Medium severity issues fixed and independently re-verified across a 4-viewport regression matrix, with zero remaining High/Medium issues and zero console errors observed across every run. Each defect is documented with root cause, reproduction steps, and before/after screenshots. Underneath the UI, the engineering layer (settlement algorithm, persistence, AI-parsing, fairness explanations) carries 230+ automated Vitest tests, plus a Playwright end-to-end suite.
-
-**Stack:** React 19, TypeScript (strict), Vite, Tailwind v4, Supabase (Postgres + RLS), Vitest, Playwright.
-
-**Repo:** [github.com/Mayeen4536/GroceryMate](https://github.com/Mayeen4536/GroceryMate)
-
-## Technical Toolkit
-
-### UI Automation
-Playwright (C#/NUnit, primary professional stack) · Playwright (TypeScript/JavaScript, personal & portfolio work) · Selenium · Page Object Model · fixtures & auth-state reuse
-
-### API & Data
-Postman · REST API contract testing (status, schema, error contracts) · Playwright `request` fixture · SQL / PostgreSQL (Supabase schema & RLS)
-
-### Test Strategy & Delivery
-Test strategy & staging acceptance · Regression planning & release validation · Exploratory testing · Defect investigation · Production issue validation & HyperCare coordination
-
-### Engineering Workflow
-Git · GitHub Actions · CI/CD pipelines · Docker (local test execution) · Cross-team QA coordination
-
-### Languages & Frameworks
-C#, NUnit · JavaScript / TypeScript · Python (scripting)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/desk-notes-dark.svg">
+  <img src="assets/desk-notes-light.svg" alt="A passing test answers a question. Curiosity asks a better one. Read all three desk notes below." width="100%">
+</picture>
 
 <details>
-<summary><strong>🐞 How I Think About Bugs</strong> (click to expand)</summary>
-<br>
+<summary><sub>📓 Pause here. Borrow a thought.</sub></summary>
 
-- A bug that only reproduces "sometimes" isn't a coincidence: it's a missing concurrency test.
-- If the fix is "add a try/catch," the investigation isn't finished yet.
-- The best regression test is the one written the day a defect is found, using the exact repro steps from the ticket.
-- "Works on my machine" is a hypothesis, not a resolution: it means I haven't yet matched the failure's data, timing, or environment.
-- A production issue deserves a validation step before it gets called resolved, not just a redeploy.
+> A passing test answers a question. Curiosity asks a better one.
+>
+> Make room for the strange idea. Then build a way to test it.
+>
+> Leave the code clearer, the product kinder, and the next person a clue.
 
 </details>
 
-## Open Source & Engineering Highlights
+## Professional Snapshot
 
-- Merged a documentation-accuracy fix upstream to [`icalendar`](https://github.com/collective/icalendar) (Python's widely used RFC 5545 calendar library): corrected three broken Sphinx cross-references and reduced the documentation build's warning count. See [PR #1736](https://github.com/collective/icalendar/pull/1736) (merged).
-- Maintain [Bug Museum](https://github.com/Mayeen4536/bug-museum) as a public, evidence-sourced engineering knowledge base. See Featured Projects above.
+**Senior Software QA Engineer (L1) · Enosis Solutions · Dhaka**<br>
+Nearly 4 years of asking “what could go wrong?” — and coming back with evidence.
 
-## Current Focus
+- **Own the release.** QA POC for an enterprise platform migration, from test strategy through staging acceptance and release sign-off.
+- **Engineer the checks.** Playwright + C#/NUnit at work; TypeScript UI and API automation in my portfolio.
+- **Show the receipts.** GroceryMate audit: **9 defects · 4 viewports · every High/Medium fix independently re-verified.**
 
-- Applying AI-assisted engineering to test design, failure investigation, and QA workflows: using LLMs to draft test scenarios and speed up root-cause analysis, while keeping verification human-owned.
-- Growing Bug Museum's exhibit collection (API and Frontend categories planned next).
-- Moving toward SDET-track roles where automation architecture and API quality sit closer to the center of the job.
+## Inside the Den
 
-## One More Thing
+*Six little rabbit holes. Click a card. Peek inside. Stay curious.*
 
-Every project above was tested, manually and automatically, before I called it "done." This README is no exception, and I still expect someone to find a typo in it. Report it as a bug; I'll take it as a compliment.
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-museum-dark.svg"><img src="assets/card-museum-light.svg" width="520" alt="Open Bug Museum — small bugs, plot twists. Case closed?"></picture></summary>
 
-## Let's Talk Quality
+**I collect bugs with backstories.** Real failure patterns, root causes, and ways to catch them.
 
-Open to **Senior QA Engineer**, **QA Automation Engineer**, and **SDET** roles.
+First exhibit: a refresh-token race hiding behind “random logouts.”
+
+[Enter the museum →](https://github.com/Mayeen4536/bug-museum)
+
+</details>
+
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-playwright-dark.svg"><img src="assets/card-playwright-light.svg" width="520" alt="Open the test kitchen — Playwright SauceDemo automation."></picture></summary>
+
+**Tests with receipts.** Playwright + TypeScript, reusable auth, UI journeys, and API contracts. Failures leave traces.
+
+[Lift the lid →](https://github.com/Mayeen4536/playwright-saucedemo-automation) · [Check the real CI →](https://github.com/Mayeen4536/playwright-saucedemo-automation/actions)
+
+</details>
+
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-grocery-dark.svg"><img src="assets/card-grocery-light.svg" width="520" alt="Open GroceryMate — split the bill, keep the friendship."></picture></summary>
+
+**Fair shares. Unfairly thorough testing.** A household-expense app audited across **88 interaction steps · 4 viewports · 9 defects found**.
+
+Every High and Medium issue fixed and independently re-verified in that audit.
+
+[See the fieldwork →](https://github.com/Mayeen4536/GroceryMate)
+
+</details>
+
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-toolkit-dark.svg"><img src="assets/card-toolkit-light.svg" width="520" alt="Open the gadget drawer — tools and testing instincts."></picture></summary>
+
+**At work:** Playwright · C# · NUnit<br>
+**In the den:** TypeScript · API testing · SQL · GitHub Actions
+
+My favorite tool? **A suspiciously specific question.**
+
+</details>
+
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-now-dark.svg"><img src="assets/card-now-light.svg" width="520" alt="Open On my mind — current experiments and open source."></picture></summary>
+
+**More museum exhibits. Smarter test design. A path toward SDET.**
+
+Exploring AI-assisted QA, with a human checking the answers. Leaving small improvements upstream, too: [a merged fix in Python's icalendar →](https://github.com/collective/icalendar/pull/1736)
+
+</details>
+
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-play-dark.svg"><img src="assets/card-play-light.svg" width="520" alt="Open one tiny mystery — one cookie, two confirmed orders."></picture></summary>
+
+**🍪 The case of the impossible cookie**
+
+One cookie left. Mina and Rafi each click **Buy** once. Both get an order confirmation. Stock now says **0**.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/cookie-case-dark.svg">
+  <img src="assets/cookie-case-light.svg" width="520" alt="Illustrated puzzle: Mina and Rafi both order the last cookie at almost the same time. Both orders are confirmed, despite stock starting at one.">
+</picture>
+
+**How did one cookie sell twice?** Tap your theory.
+
+<details>
+<summary>🖱️ Someone double-clicked Buy.</summary>
+
+Good first suspect. But the clue says **two different shoppers, one click each**. This bug doesn't need a double-click. Try another theory.
+
+</details>
+
+<details>
+<summary>🧾 One order printed two receipts.</summary>
+
+That would explain duplicate paper. The order log shows **two different order IDs**, though. Something happened before the receipts.
+
+</details>
+
+<details>
+<summary>⚡ Both shoppers claimed the same last cookie.</summary>
+
+**Caught it. A race condition wearing a cookie costume.**
+
+Both checkouts read “1 left” before either reserved it. Each accepted an order and wrote “0 left.” Two promises. One cookie.
+
+**My next move:** reserve stock atomically, then run two checkouts together. Expect **one confirmation and one sold-out response**.
+
+`Case cracked. Cookie custody: still disputed.`
+
+[More bugs with backstories →](https://github.com/Mayeen4536/bug-museum)
+
+</details>
+
+</details>
+
+---
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mayeen-abedin-sajid-50b4a0194/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://mayeensajid.netlify.app"><img src="https://img.shields.io/badge/Portfolio-View-1E293B?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
+  <strong>A strange idea? A tricky bug? Pull up a chair.</strong><br>
+  Open to Senior QA, QA Automation, and SDET roles.<br><br>
+  <a href="https://www.linkedin.com/in/mayeen-abedin-sajid-50b4a0194/">Let's talk ↗</a> &nbsp; · &nbsp;
+  <a href="https://mayeensajid.netlify.app">Visit my portfolio ↗</a><br><br>
+  <sub>Leave with a question. Come back with an idea.</sub>
 </p>

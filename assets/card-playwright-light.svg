@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="112" viewBox="0 0 720 112" role="img" aria-labelledby="title desc">
+  <title id="title">The test kitchen</title>
+  <desc id="desc">Fresh tests. Zero mystery ingredients.. Open this card to read a short note.</desc>
+  <style>
+    text { font-family:'Segoe UI',Helvetica,Arial,sans-serif; }
+    .float { animation:float 4s ease-in-out infinite; }
+    .trace { stroke-dasharray:4 8; animation:trace 8s linear infinite; }
+    .pulse { animation:pulse 4s ease-in-out infinite; }
+    .turn { transform-origin:56px 56px; animation:turn 24s linear infinite; }
+    @keyframes float { 0%,100% { transform:translateY(2px); } 50% { transform:translateY(-3px); } }
+    @keyframes trace { to { stroke-dashoffset:-96; } }
+    @keyframes pulse { 0%,100% { opacity:.35; } 50% { opacity:.9; } }
+    @keyframes turn { to { transform:rotate(360deg); } }
+    @media(max-width:400px) {
+      .card-title { font-size:40px; transform:translateY(16px); }
+      .card-subtitle { display:none; }
+    }
+    @media(prefers-reduced-motion:reduce) { * { animation:none !important; } }
+  </style>
+  <rect x="1" y="1" width="718" height="110" rx="18" fill="#F6F3EB" stroke="#C7D5CF"/>
+  <rect x="1" y="1" width="718" height="110" rx="18" fill="#126956" fill-opacity=".055"/>
+  <path d="M19 30v52" stroke="#126956" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="64" cy="56" r="31" fill="#126956" fill-opacity=".10"/>
+  <g transform="translate(8 0)" fill="none" stroke="#126956" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g class="float"><rect x="34" y="36" width="44" height="37" rx="6"/><path d="M34 45h44m-36-5h1m5 0h1m5 0h1M46 58l7 7 13-14"/></g><path d="M36 81h40" class="trace"/></g>
+  <text class="card-title" x="116" y="48" font-size="28" font-weight="650" fill="#17343B">The test kitchen</text>
+  <text class="card-subtitle" x="116" y="79" font-size="18" fill="#506970">Fresh tests. Zero mystery ingredients.</text>
+  <path d="M570 56h45" stroke="#126956" stroke-opacity=".5" class="trace"/>
+  <circle cx="658" cy="56" r="22" fill="#FFFCF5" stroke="#126956" stroke-opacity=".5"/>
+  <path d="M650 56h16m-8-8v16" stroke="#126956" stroke-width="2" stroke-linecap="round"/>
+</svg>
