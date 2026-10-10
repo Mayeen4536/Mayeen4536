@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="112" viewBox="0 0 720 112" role="img" aria-labelledby="title desc">
+  <title id="title">GroceryMate</title>
+  <desc id="desc">Split the bill. Keep the friendship.. Open this card to read a short note.</desc>
+  <style>
+    text { font-family:'Segoe UI',Helvetica,Arial,sans-serif; }
+    .float { animation:float 4s ease-in-out infinite; }
+    .trace { stroke-dasharray:4 8; animation:trace 8s linear infinite; }
+    .pulse { animation:pulse 4s ease-in-out infinite; }
+    .turn { transform-origin:56px 56px; animation:turn 24s linear infinite; }
+    @keyframes float { 0%,100% { transform:translateY(2px); } 50% { transform:translateY(-3px); } }
+    @keyframes trace { to { stroke-dashoffset:-96; } }
+    @keyframes pulse { 0%,100% { opacity:.35; } 50% { opacity:.9; } }
+    @keyframes turn { to { transform:rotate(360deg); } }
+    @media(max-width:400px) {
+      .card-title { font-size:40px; transform:translateY(16px); }
+      .card-subtitle { display:none; }
+    }
+    @media(prefers-reduced-motion:reduce) { * { animation:none !important; } }
+  </style>
+  <rect x="1" y="1" width="718" height="110" rx="18" fill="#101B23" stroke="#30434B"/>
+  <rect x="1" y="1" width="718" height="110" rx="18" fill="#F6B77D" fill-opacity=".055"/>
+  <path d="M19 30v52" stroke="#F6B77D" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="64" cy="56" r="31" fill="#F6B77D" fill-opacity=".10"/>
+  <g transform="translate(8 0)" fill="none" stroke="#F6B77D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g class="float"><path d="M35 46h42l-5 27H40Zm10 0 6-12m16 12-6-12m-13 22V54m8 12V54m8 12V54"/><path d="M40 78h32"/></g></g>
+  <text class="card-title" x="116" y="48" font-size="28" font-weight="650" fill="#F1EEE5">GroceryMate</text>
+  <text class="card-subtitle" x="116" y="79" font-size="18" fill="#A8BCC1">Split the bill. Keep the friendship.</text>
+  <path d="M570 56h45" stroke="#F6B77D" stroke-opacity=".5" class="trace"/>
+  <circle cx="658" cy="56" r="22" fill="#15252E" stroke="#F6B77D" stroke-opacity=".5"/>
+  <path d="M650 56h16m-8-8v16" stroke="#F6B77D" stroke-width="2" stroke-linecap="round"/>
+</svg>

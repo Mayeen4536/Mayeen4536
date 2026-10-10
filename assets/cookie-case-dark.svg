@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="168" viewBox="0 0 560 168" role="img" aria-labelledby="title desc">
+  <title id="title">The case of the impossible cookie</title>
+  <desc id="desc">An illustrated puzzle, not live data. Mina and Rafi each order the last cookie. Both orders are confirmed. How did one cookie sell twice?</desc>
+  <style>
+    text { font-family:'Segoe UI',Helvetica,Arial,sans-serif; }
+    .left { animation:left 3s ease-in-out infinite; }
+    .right { animation:right 3s ease-in-out infinite; }
+    .cookie { transform-origin:280px 61px; animation:wobble 5s ease-in-out infinite; }
+    @keyframes left { 0%,15% { transform:translateX(0); opacity:0; } 25% { opacity:1; } 75% { opacity:1; } 90%,100% { transform:translateX(52px); opacity:0; } }
+    @keyframes right { 0%,15% { transform:translateX(0); opacity:0; } 25% { opacity:1; } 75% { opacity:1; } 90%,100% { transform:translateX(-52px); opacity:0; } }
+    @keyframes wobble { 0%,100% { transform:rotate(-8deg); } 50% { transform:rotate(8deg); } }
+    @media(prefers-reduced-motion:reduce) { * { animation:none !important; } }
+  </style>
+  <rect x="1" y="1" width="558" height="166" rx="16" fill="#101B23" stroke="#30434B"/>
+  <rect x="18" y="29" width="152" height="106" rx="12" fill="#15252E" stroke="#30434B"/>
+  <rect x="390" y="29" width="152" height="106" rx="12" fill="#15252E" stroke="#30434B"/>
+  <g text-anchor="middle">
+    <text x="94" y="59" font-size="22" font-weight="650" fill="#F1EEE5">Mina</text>
+    <text x="466" y="59" font-size="22" font-weight="650" fill="#F1EEE5">Rafi</text>
+    <text x="94" y="84" font-size="15" fill="#A8BCC1">ORDER #001</text>
+    <text x="466" y="84" font-size="15" fill="#A8BCC1">ORDER #002</text>
+    <text x="94" y="114" font-size="17" font-weight="600" fill="#7DE2CB">✓ Confirmed</text>
+    <text x="466" y="114" font-size="17" font-weight="600" fill="#7DE2CB">✓ Confirmed</text>
+  </g>
+  <path d="M179 63h51m-7-5 7 5-7 5m158-5h-51m7-5-7 5 7 5" fill="none" stroke="#A8BCC1" stroke-width="1.5"/>
+  <circle class="left" cx="177" cy="63" r="3" fill="#7DE2CB"/>
+  <circle class="right" cx="383" cy="63" r="3" fill="#7DE2CB"/>
+  <g class="cookie">
+    <circle cx="280" cy="61" r="27" fill="#F6B77D" fill-opacity=".22" stroke="#F6B77D" stroke-width="2"/>
+    <g fill="#F6B77D"><circle cx="270" cy="50" r="3"/><circle cx="290" cy="54" r="4"/><circle cx="281" cy="69" r="3"/><circle cx="265" cy="66" r="2"/><circle cx="293" cy="74" r="2"/></g>
+  </g>
+  <text x="280" y="110" text-anchor="middle" font-size="20" font-weight="650" fill="#F6B77D">1 cookie</text>
+  <text x="280" y="140" text-anchor="middle" font-size="14" fill="#A8BCC1">2 promises. Hmm.</text>
+</svg>
